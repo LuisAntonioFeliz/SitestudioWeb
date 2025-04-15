@@ -1,0 +1,28 @@
+.bg-image {
+    background-image: url("../../../../public/Portada\ 1.png");
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    .image {
+        height: 600px;
+    }
+}
+
+.mask {
+    background-color: hsla(0, 0%, 0%, 0.8);
+}
+
+.color-titulo {
+    color: blue;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}

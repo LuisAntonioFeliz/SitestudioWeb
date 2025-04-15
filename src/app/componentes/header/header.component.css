@@ -1,0 +1,61 @@
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler {
+    border-color: white;
+}
+
+.nav-item:hover {
+    background-color: #0000ff;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand > img {
+    background-image: url("../../../../public/Sitestudio_Web_logo.png");
+    width: 50px;
+    height: auto;
+}
+
+.navbar {
+    transition: all 0.5s;
+}
+
+.navbar-scrolled {
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 255, 1);
+}
+
+.navbar-scrolled .custom-toggler .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,0,255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-scrolled .custom-toggler .navbar-toggler {
+    border-color: #0000ff;
+}
+
+.navbar-scrolled .nav-link {
+    color: #0000ff;
+}
+
+.navbar-scrolled .nav-link:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-collapse {
+        background-color: white;
+    }
+
+    .navbar-collapse .nav-link {
+        color: #0000ff;
+    }
+
+    .navbar-collapse .nav-link:hover {
+        color: white;
+    }
+}

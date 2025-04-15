@@ -1,0 +1,22 @@
+img {
+    background-image: url("../../../../public/Portada\ 2.png");
+    
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    img {
+        height: 600px;
+    }
+}
+
+h2 {
+    color: blue;
+}
+
+.card {
+    width: 60%;
+    justify-self: center;
+    border: 2px solid;
+}
